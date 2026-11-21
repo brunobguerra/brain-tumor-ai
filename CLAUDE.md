@@ -8,7 +8,7 @@ Classify one MRI from the Nickparvar dataset into glioma, meningioma, pituitary,
 
 ## Data
 
-- Cycle 1: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) (Masoud Nickparvar). Four classes, label = folder name (`glioma`, `meningioma`, `pituitary`, `notumor`). Place the official `Training/` and `Testing/` trees under `data/raw/` and do not modify them. Data is not committed.
+- Cycle 1: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) (Masoud Nickparvar). Four classes, label = folder name (`glioma`, `meningioma`, `pituitary`, `notumor`). Place the official `Training/` and `Testing/` trees under `data/raw/brain-tumor-mri-dataset/` and do not modify them. Data is not committed.
 - Later, as its own study: Cheng et al. on Figshare, DOI `10.6084/m9.figshare.1512427`. Not an external test of the Nickparvar model until image overlap is measured.
 
 ## Commands

@@ -8,7 +8,7 @@ Brain Tumor MRI Dataset, Masoud Nickparvar:
 
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-Place the official `Training/` and `Testing/` trees under `data/raw/` and leave those files unchanged. `data/` is not committed. The label is the class folder name: `glioma`, `meningioma`, `pituitary`, `notumor`.
+Place the official `Training/` and `Testing/` trees under `data/raw/brain-tumor-mri-dataset/` and leave those files unchanged. `data/` is not committed. The label is the class folder name: `glioma`, `meningioma`, `pituitary`, `notumor`.
 
 The publisher describes 7,200 images, four balanced classes, 1,400 training and 400 testing images each. Those figures are the publisher's claim. The notebook has to count the files that are actually on disk.
 
