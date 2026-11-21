@@ -38,4 +38,3 @@ In order: data understanding, data preparation, the TensorFlow baseline, extract
 ## Open checks
 
 - Counts, image sizes, color modes, and hash overlap between `Training` and `Testing` are unverified until the data-understanding notebook runs.
-- The hatch package path in `pyproject.toml` points at `src/brain_tumor_ai`, which does not exist. The code lives in `brain_tumor_ai/`. Fix that in the same edit that first changes `pyproject.toml`.
