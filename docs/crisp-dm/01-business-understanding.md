@@ -21,7 +21,7 @@ The held-out official `Testing` folder is scored once, after model selection.
 - Framework for the model: TensorFlow/Keras, a small CNN trained from scratch on CPU. The `tensorflow` dependency is added only when modeling starts.
 - Vision: OpenCV (`import cv2`) via `opencv-python-headless`.
 - Baseline image contract: grayscale, resize to 128×128, scale pixels to `[0, 1]`. No ImageNet normalization and no augmentation on the baseline.
-- Split: `Testing` is untouched until final evaluation. Validation is 20% of `Training`, stratified by class, seed 42. Indices are written under `data/interim/` before any fitted statistic.
+- Split: `Testing` is untouched until final evaluation. Validation is 20% of `Training`, stratified by class, seed 42. Files with the same SHA-256 are grouped and never split across train and validation. All files are kept. Indices are written under `data/interim/` before any fitted statistic.
 - Process map: the six files in this folder. Code lands in `brain_tumor_ai/preparation/`, then `modeling/`, then `evaluation/`, each when that phase has a testable behavior.
 
 ## Non-goals for cycle 1

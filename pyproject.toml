@@ -9,6 +9,7 @@ dependencies = [
   "pandas",
   "scikit-learn",
   "matplotlib",
+  "opencv-python-headless>=5.1.0.95",
 ]
 
 [dependency-groups]
